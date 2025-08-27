@@ -49,15 +49,15 @@ online fraud detection.
 | isFraud            | 1 if transaction is fraudulent, else 0 |
 ### Methodology
 Loaded the dataset using pandas which has 6.3M rows in that 8213 are fraud transactions and 6.3M non fraud which is a highly imbalanced data. Downsampled the data for hyperparameter computational feasibility which now has 1.9M rows in that 1.9M are non fraud and 2464 are fraud.
-## 1.Preprocessing: 
+#### 1.Preprocessing: 
 Checked for unique and null values and duplicate rows. Used label encoder for categorical values and performed EDA.
-## 2.Handling Imbalance: 
+#### 2.Handling Imbalance: 
 Applied SMOTE and SMOTE-ENN to balance the class and split the dataset for training testing and validation.
-## 3.Split:
+#### 3.Split:
 Split the dataset for training testing and validation in which 60% Train, 20% Validation, 20% Test 
-## 4.Model Implementation: 
+#### 4.Model Implementation: 
 Implemented Logistic Regression, Random forest, Decision Tree and KNN and used GridSearchCV to find the best parameters.
-## 5.Metrics:
+#### 5.Metrics:
 Used Metrics such as precision, recall, f1 score, accuracy and confusion matrix to understand which model is performing better.
 ## 📈 Results and Analysis
 ### Validation Results
