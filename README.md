@@ -2,7 +2,9 @@
 ## Project Overview
 This project will explore two popular resampling techniques one is SMOTE which is Synthetic Minority Oversampling Technique and the other one is SMOTE combined with Edited Nearest Neighbour (SMOTE-ENN) technique. This is mainly used for prediction of online fraud for highly imbalanced transaction data. The core idea is to compare these two methods in terms of accuracy, training time and the overall efficiency when applied to different Machine Learning models.
 ### Data Source
+Dataset file is not uploaded in the GitHub due to its huge size.It can be download from below links.
 The dataset employed here is obtained from  git hub repository [https://github.com/Shamimansari42/Online-Payments-Fraud-Detection-Dataset]
+The cleaned dataset file which is used in SMOTE and SMOTE-ENN [https://drive.google.com/file/d/1lSlzin_ICQOx49sn1WfhQsG89Jw7gMNR/view?usp=drive_link]
 ## 🕵️‍♂️ Research Question
 How does the online fraud prediction performance differ between models trained using the **SMOTE** oversampling technique and the **SMOTE-ENN** (Edited Nearest Neighbors) hybrid sampling technique when evaluated on imbalanced, real-time transaction data?
 ## 🚀 Aim
